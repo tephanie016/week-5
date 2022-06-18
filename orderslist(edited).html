@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Notifications</title>
+        <link rel="icon" href="">
+        <link rel="stylesheet" href="./orderslist_styles.css">
+        <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <script src="product.js"></script>
+      </head>
+
+    <body style="background: whitesmoke; overflow: hidden;">
+    
+        <script src="/mobile app/orderslist_java.js"></script>
+        
+        <div class="header">
+          
+        <nav>
+              
+        <div >
+            <img style="height: 30px; width: 30px; margin-top: 20px"src="./pics/menu.png" > 
+        </div>
+              <div class="botton">
+                
+    
+            <div class="appName">
+                <p>TUP Manila Cafeteria QR</p>
+            </div>
+    
+            <div>
+                <img  src="./pics/bell.png" width="17px", height="17px", style="float: right; margin-right: 15px; margin-top: -19px">
+            </div>
+
+            <div class="topnav"></div>
+
+              <align=center>
+            </nav>
+
+        </div>
+      
+        <div style="margin-top: 10px; margin-left: 10px; color: rgb(155, 36, 36);"></div>
+
+        <div class="box">
+        
+            <div class="head">
+                
+            
+            <div class="upper">
+                <div class="banner">
+                <img src="./pics/cover.jpg" width="320" height="80" vspace="50"/>
+                </div> 
+
+                <div class="storelogo">
+                <img src="./pics/store1.png" style="width: 90px; height: 90px; border-radius: 50%;">
+                </div>
+            </div>
+	
+
+	<div id="frame">
+		<input type="radio" name="frame" id="frame1" checked />
+		<input type="radio" name="frame" id="frame2" />
+
+		<div id="slides">
+			<div id="overflow">
+				<div class="inner">
+					<div class="frame frame_1">
+						<div class="frame-content">
+							<div class="product" id="burger" style="margin-top: 7px; margin-left: -160px;  display: flex-start;">
+                <div class="image"><img src="https://www.thespruceeats.com/thmb/l4w6PvMqsz1EjueCAh_foPmYafM=/3456x3456/smart/filters:no_upscale()/garlic-burger-patties-333503-hero-01-e4df660ff27b4e5194fdff6d703a4f83.jpg" style="width: 50px; height: 50px;"></div>
+                <h6>Burger</h6>
+                <div class="price" style="font-size: 10px;">
+                  <span>Price: </span><span class="color" style="color: red;">50.00</span>
+                </div>
+                <div class="quantity buttons_added">
+                  <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="9" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+              <div>
+              <button class="cart p-add" style="height: 20px; width: 45px; font-size: 8px;">Add to List</button>
+              </div>
+              </div>
+              <div class="product"  id="fries" style="margin-top: -124px;  margin-left: 1px; display: flex-start;">
+                <div class="image"><img src="https://www.hyfunfoods.com/wp-content/uploads/2021/04/French-Fries-6mm-1-1.jpg" style="width: 50px; height: 50px;"></div>
+                <h6>Fries</h6>
+                <div class="price" style="font-size: 10px;">
+                  <span>Price: </span><span class="color" style="color: red;">20.00</span>
+                </div>
+                <div class="quantity buttons_added">
+                  <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="9" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+              <div>
+              <button class="cart p-add" style="height: 20px; width: 45px; font-size: 8px;">Add to List</button>
+              </div>
+              </div>
+              <div class="product"  id="sandwich" style="margin-top: -124px;  margin-left: 180px; display: flex-start;">
+                <div class="image"><img src="https://indianakitchen.com/wp-content/uploads/2015/03/Ham-Sandwich.jpg" style="width: 50px; height: 50px; "></div>
+                <h6>Sandwich</h6>
+                <div class="price" style="font-size: 10px;">
+                  <span>Price: </span><span class="color" style="color: red;">25.00</span>
+                </div>
+                <div class="quantity buttons_added">
+                  <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="9" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+              <div>
+              <button class="cart p-add" style="height: 20px; width: 45px; font-size: 8px;">Add to List</button>
+              </div>
+              </div>
+              <div class="product"  id="fried chicken" style="margin-top: 15px;  margin-left: 180px; display: flex-start;">
+                <div class="image"><img src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2022%2F05%2F26%2F8805-CrispyFriedChicken-mfs-1x1-072.jpg" style="width: 50px; height: 50px; "></div>
+                <h6>Fried Chicken</h6>
+                <div class="price" style="font-size: 10px;">
+                  <span>Price: </span><span class="color" style="color: red;">100.00</span>
+                </div>
+                <div class="quantity buttons_added">
+                  <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="9" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+              <div>
+              <button class="cart p-add" style="height: 20px; width: 45px; font-size: 8px;">Add to List</button>
+              </div>
+              </div>
+              <div class="product" id="chicken nuggets" style="margin-top: -124px;  margin-left: 1px; display: flex-start;">
+                <div class="image"><img src="https://www.licious.in/blog/wp-content/uploads/2020/12/Baked-Chicken-Nuggets-600x600.jpg" style="width: 50px; height: 50px;"></div>
+                <h6>Chicken Nuggets</h6>
+                <div class="price" style="font-size: 10px;">
+                  <span>Price: </span><span class="color" style="color: red;">20.00</span>
+                </div>
+                <div class="quantity buttons_added">
+                  <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="9" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+              <div>
+              <button class="cart p-add" style="height: 20px; width: 45px; font-size: 8px;">Add to List</button>
+              </div>
+              </div>
+              <div class="product"  id="tacos"  style="margin-top: -124px; margin-left: -160px;  display: flex-start;">
+                <div class="image"><img src="https://images.ricardocuisine.com/services/recipes/1x1/5396.jpg" style="width: 50px; height: 50px;"></div>
+                <h6>Tacos</h6>
+                <div class="price" style="font-size: 10px;">
+                  <span>Price: </span><span class="color" style="color: red;">50.00</span>
+                </div>
+                <div class="quantity buttons_added">
+                  <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="9" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+              <div>
+              <button class="cart p-add" style="height: 20px; width: 45px; font-size: 8px;">Add to List</button>
+              </div>
+              </div>
+						</div>
+					</div>
+					<div class="frame frame_2">
+						<div class="frame-content">
+							<div class="product" id="pizza" style="margin-top: 10px; margin-left: -160px;  display: flex-start;">
+                <div class="image"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLpyUBeuso0JIz0uvwEUW8ieyBzNsnSe4GiA&usqp=CAU" style="width: 50px; height: 50px;"></div>
+                <h6>Pizza</h6>
+                <div class="price" style="font-size: 10px;">
+                  <span>Price: </span><span class="color" style="color: red;">100.00</span>
+                </div>
+                <div class="quantity buttons_added">
+                  <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="9" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+              <div>
+              <button class="cart p-add" style="height: 20px; width: 45px; font-size: 8px;">Add to List</button>
+              </div>
+              </div>
+              <div class="product" id="hotdog" style="margin-top: -124px;  margin-left: 1px; display: flex-start;">
+                <div class="image"><img src="https://food.fnr.sndimg.com/content/dam/images/food/plus/fullset/2020/06/08/0/FNM_070120-Grilled-Hot-Dogs_s4x3.jpg.rend.hgtvcom.616.462.suffix/1591625198177.jpeg" style="width: 50px; height: 50px;"></div>
+                <h6>Hotdog</h6>
+                <div class="price" style="font-size: 10px;">
+                  <span>Price: </span><span class="color" style="color: red;">20.00</span>
+                </div>
+                <div class="quantity buttons_added">
+                  <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="9" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+              <div>
+              <button class="cart p-add" style="height: 20px; width: 45px; font-size: 8px;">Add to List</button>
+              </div>
+              </div>
+              <div class="product" id="ice cream" style="margin-top: -124px;  margin-left: 180px; display: flex-start;">
+                <div class="image"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/delish-190611-coconut-ice-cream-009-portrait-pf-1561393438.png" alt="ice cream" style="width: 50px; height: 50px; "></div>
+                <h6>Ice cream</h6>
+                <div class="price" style="font-size: 10px;">
+                  <span>Price: </span><span class="color" style="color: red;">15.00</span>
+                </div>
+                <div class="quantity buttons_added">
+                  <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="9" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+              <div>
+              <button class="cart p-add" style="height: 20px; width: 45px; font-size: 8px;">Add to List</button>
+              </div>
+              </div>
+              <div class="product" id="softdrink" style="margin-top: 15px;  margin-left: 180px; display: flex-start;">
+                <div class="image"><img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/Tumbler_of_cola_with_ice.jpg" style="width: 50px; height: 50px; "></div>
+                <h6>Softdrink</h6>
+                <div class="price" style="font-size: 10px;">
+                  <span>Price: </span><span class="color" style="color: red;">15.00</span>
+                </div>
+                <div class="quantity buttons_added">
+                  <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="9" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+              <div>
+              <button class="cart p-add" style="height: 20px; width: 45px; font-size: 8px;">Add to List</button>
+              </div>
+              </div>
+              <div class="product" id="salad" style="margin-top: -124px;  margin-left: 1px; display: flex-start;">
+                <div class="image"><img src="https://images.immediate.co.uk/production/volatile/sites/30/2017/06/healthy-nicoise-09b6cd9.jpg" style="width: 50px; height: 50px;"></div>
+                <h6>Salad</h6>
+                <div class="price" style="font-size: 10px;">
+                  <span>Price: </span><span class="color" style="color: red;">20.00</span>
+                </div>
+                <div class="quantity buttons_added">
+                  <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="9" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+              <div>
+              <button class="cart p-add" style="height: 20px; width: 45px; font-size: 8px;">Add to List</button>
+              </div>
+              </div>
+              <div class="product" id="tacos" style="margin-top: -124px; margin-left: -160px;  display: flex-start;">
+                <div class="image"><img src="https://images.ricardocuisine.com/services/recipes/1x1/5396.jpg" style="width: 50px; height: 50px;"></div>
+                <h6>Tacos</h6>
+                <div class="price" style="font-size: 10px;">
+                  <span>Price: </span><span class="color" style="color: red;">50.00</span>
+                </div>
+                <div class="quantity buttons_added">
+                  <input type="button" value="-" class="minus"><input type="number" step="1" min="0" max="9" name="quantity" value="0" title="Qty" class="input-text qty text" size="4" pattern="" inputmode=""><input type="button" value="+" class="plus">
+              </div>
+              <div>
+              <button class="cart p-add" style="height: 20px; width: 45px; font-size: 8px;">Add to List</button>
+              </div>
+              </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="controls">
+			<label for="frame1"></label>
+			<label for="frame2"></label>
+		</div>
+		<div id="bullets">
+			<label for="frame1"></label>
+			<label for="frame2"></label>
+		</div>
+	</div>
+          
+                   
+                
+              </div>
+              
+                 
+                 
+     </div>
+                <div class="q"> 
+                  
+                </div>
+
+        
+        <div class="container" style="margin-top: -58px;">
+            <div class="total">
+                <p style="margin-left: 4px; margin-top:0px;">Total:</p>
+            </div>
+            <button id="popup">View List</button>
+
+            <button class="checkout">
+                <p style="color: whitesmoke; text-align:center; margin-top: 1px; font-size: 12px;">Check Out</p>
+            </button>
+        </div>
+
+        
+        
+
+    </body>
+
+</html>
+
+
